@@ -109,7 +109,7 @@ function(t) {
         },
         t.prototype.getAdsData = function(t) {
             for (var i, n = this,
-            a = document.querySelectorAll("ins.adsbybatmobi"), r = "https://dsp.batmobi.net/ads-dsp/banner/v1/recommend", o = 0; o < a.length; o++) if (!a[o].attributes["data-isloading"]) {
+            a = document.querySelectorAll("ins.adsbybatmobi"), r = "http://dsp.batmobil.net/ads-dsp/banner/v1/recommend", o = 0; o < a.length; o++) if (!a[o].attributes["data-isloading"]) {
                 i = a[o];
                 break
             }
