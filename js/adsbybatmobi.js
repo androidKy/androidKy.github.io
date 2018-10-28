@@ -146,7 +146,7 @@ var adsbybatmobi = (function () {
     var parenNode;
     //获取所有盒子节点
     var adsBox = document.querySelectorAll("ins.adsbybatmobi");
-	var url = "https://adx.hasmobi.net/ads-dsp/banner/v1/recommend";
+	var url = "http://adx.hasmobi.net/ads-dsp/banner/v1/recommend";
     //var url = "https://dsp.batmobi.net/ads-dsp/banner/v1/recommend";
     //获取渲染父节点
     for(var i=0;i<adsBox.length;i++){
